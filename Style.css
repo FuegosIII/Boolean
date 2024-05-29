@@ -1,0 +1,78 @@
+/*Sfondo*/
+body{
+    background-image: url(Img/background.jpg);
+    background-size: 100% 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*contenitore allineamento centrare con spazio 20% laterale su tutti i lati e 2% sotto e sopra, colore nero con trasparenza 0.5, arrotondato 2%*/
+.Contenitore {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(0,0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5%;
+}
+/*Formattazione immagine*/
+div img {
+    height: 150px;
+    width: 330px;
+}
+/* Formattazione titolo header, grandezza font, peso, family, colore*/
+header div {
+    color: #00dd00;
+    font-size: 50px;
+    font-weight: 400;
+}
+/*bottoni allineati centralmente*/
+header > div {
+    text-align: center;
+}
+/*Sfondo nav verde centrato con spazio 10% da sinistra e destra del contenitore principale*/
+nav > div {
+    background-color: #00dd00;
+    text-align: center;
+}
+/* Formatazione bottoni, grandezza, margini alto e basso */
+div > button {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Spazio tra i vari div*/
+main section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Formatazione testo*/
+div span{
+    font-size: 25px;
+    font-weight: 500;
+}
+/*Inseritmento automatico freccia*/
+.Freccia::before{
+    content: "\21A6";
+}
+/*barra caricamento Medio*/
+.carica-medio{
+    background-color: rgb(255, 196, 0);
+    width: 45%;
+    height: 2%;
+    border-radius: 5px;   
+}
+/*barra caricamento Alto*/
+.carica-alto{
+    background-color: #00dd00;
+    width: 65%;
+    height: 2%;
+    border-radius: 5px;   
+}
+/*barra caricamento Basso*/
+.carica-basso{
+    background-color: red;
+    width: 25%;
+    height: 2%;
+    border-radius: 5px;
+}
